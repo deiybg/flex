@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap:20px;
+    
+    
+
+}
+
+ul > li{
+    flex-basis: 220px;
+    border: 2px red solid;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+ul > li > img{
+    
+    width: 100%;
+    
+    
+}
